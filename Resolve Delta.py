@@ -11,6 +11,13 @@ class Main:
 
         #CONTA
 
+
+
+
+
+        p = dtb * dtb
+        v = (4 * dta * dtc)
+        
         if dtc < 0:
 
             v = (4 * dta * (-dtc))
@@ -23,10 +30,6 @@ class Main:
             v = (4 * (-dta) * (-dtc))
             v = (4 * dta * dtc)
 
-
-
-        p = dtb * dtb
-        v = (4 * dta * dtc)
 
         resultado = int((p - v))
 
